@@ -36,7 +36,7 @@ async def unknown(update: Update, context: ContextTypes.DEFAULT_TYPE):
 
 
 if __name__ == '__main__':
-    application = ApplicationBuilder().token('5672081950:AAEyr4nmNv4paDW-ELlg27vEi39DhKxK4sc').build()
+    application = ApplicationBuilder().token('#INSERT ACCESS TOKEN').build()
     
     start_handler = CommandHandler('start', start)
     application.add_handler(start_handler)
