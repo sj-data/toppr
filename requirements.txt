@@ -1,0 +1,11 @@
+telegram.ext
+requests
+json
+moviepy
+textwrap
+numpy
+os
+pathlib
+io
+PIL
+gtts
